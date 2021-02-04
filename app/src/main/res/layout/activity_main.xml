@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:isScrollContainer="false"
+        android:id="@+id/scrollView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+    <Button
+        android:id="@+id/q1"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:text="1"
+        android:gravity="left"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/q2"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:text="2"
+        android:gravity="left"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/q3"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:text="3"
+        android:gravity="left"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/q4"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:text="4"
+        android:gravity="left"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/q5"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:text="5"
+        android:gravity="left"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/q6"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:text="6"
+        android:gravity="left"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/q7"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:text="7"
+        android:gravity="left"
+        android:textSize="36sp" />
+
+    </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
