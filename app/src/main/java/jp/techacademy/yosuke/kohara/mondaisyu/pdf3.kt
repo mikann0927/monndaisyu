@@ -4,37 +4,37 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.joanzapata.pdfview.PDFView
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.activity_pdf1.*
+import kotlinx.android.synthetic.main.activity_pdf3.*
 
-class pdf1 : AppCompatActivity() {
+class pdf3 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_pdf1)
+        setContentView(R.layout.activity_pdf3)
 
         val pdfView = findViewById<PDFView>(R.id.pdfview)
-        pdfView.fromAsset("q1.pdf")
+        pdfView.fromAsset("q3.pdf")
             .defaultPage(1)
             .showMinimap(false)
             .enableSwipe(true)
             .load()
 
-        a1.setOnClickListener {
+        a3.setOnClickListener {
 
             val pdfView = findViewById<PDFView>(R.id.pdfview)
-            pdfView.fromAsset("a1.pdf")
+            pdfView.fromAsset("a3.pdf")
                 .defaultPage(1)
                 .showMinimap(false)
                 .enableSwipe(true)
                 .load()
 
-        q1.setOnClickListener {
+            q3.setOnClickListener {
 
-            val pdfView = findViewById<PDFView>(R.id.pdfview)
-            pdfView.fromAsset("q1.pdf")
-                .defaultPage(1)
-                .showMinimap(false)
-                .enableSwipe(true)
-                .load()
+                val pdfView = findViewById<PDFView>(R.id.pdfview)
+                pdfView.fromAsset("q3.pdf")
+                    .defaultPage(1)
+                    .showMinimap(false)
+                    .enableSwipe(true)
+                    .load()
             }
         }
     }

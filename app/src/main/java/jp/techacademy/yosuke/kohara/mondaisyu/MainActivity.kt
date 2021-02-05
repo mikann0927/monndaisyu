@@ -11,38 +11,38 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        q1.setOnClickListener {
+        Q1.setOnClickListener {
             val intent = Intent(this, pdf1::class.java)
             startActivity(intent)
         }
 
-        q2.setOnClickListener {
-            val intent = Intent(this, pdf1::class.java)
+        Q2.setOnClickListener {
+            val intent = Intent(this, pdf2::class.java)
             startActivity(intent)
         }
 
-        q3.setOnClickListener {
-            val intent = Intent(this, pdf1::class.java)
+        Q3.setOnClickListener {
+            val intent = Intent(this, pdf3::class.java)
             startActivity(intent)
         }
 
-        q4.setOnClickListener {
-            val intent = Intent(this, pdf1::class.java)
+        Q4.setOnClickListener {
+            val intent = Intent(this, pdf4::class.java)
             startActivity(intent)
         }
 
-        q5.setOnClickListener {
-            val intent = Intent(this, pdf1::class.java)
+        Q5.setOnClickListener {
+            val intent = Intent(this, pdf5::class.java)
             startActivity(intent)
         }
 
-        q6.setOnClickListener {
-            val intent = Intent(this, pdf1::class.java)
+        Q6.setOnClickListener {
+            val intent = Intent(this, pdf6::class.java)
             startActivity(intent)
         }
 
-        q7.setOnClickListener {
-            val intent = Intent(this, pdf1::class.java)
+        Q7.setOnClickListener {
+            val intent = Intent(this, pdf7::class.java)
             startActivity(intent)
         }
 
